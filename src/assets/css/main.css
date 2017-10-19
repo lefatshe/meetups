@@ -1,0 +1,143 @@
+body {
+  background: #FEFEFE !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+
+/* ************** Navbar  ************** */
+.nav-bar {
+  background: #333333;
+  height: 56px;
+}
+
+span.logo img {
+  padding: 12px;
+}
+
+/* ************** Content  ************** */
+.content {
+  width: 1180px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+.panels {
+  border: 1px solid #B3B3B3;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.data {
+  padding-left: 30px;
+}
+
+.more-info {
+  padding-top: 40px;
+}
+
+.text-info {
+  color: #78909C;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.data.syrilized {
+  color: black;
+}
+
+.follow-text {
+  border-bottom: 1px solid #B3B3B3;
+  padding-bottom: 12px;
+}
+
+
+label.boolean {
+  background-color: #ECEFF1;
+  border-radius: 22px;
+  padding: 5px 15px;
+}
+
+.text-info a {
+  float: right;
+}
+.undeliner {
+  border-bottom: 1px solid #CCC;
+  width: 110%;
+  padding-bottom: 17px;
+}
+
+.header {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.group-title{
+  font-size: 22px;
+  color: black;
+  font-family: 'Karla', sans-serif;
+}
+
+
+.banner {
+  padding: 40px 0px;
+}
+
+strong.blk {
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-size: 17px;
+}
+
+/* ************** Font  ************** */
+
+.roboto-font {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ************** Catergory  ************** */
+
+.cat-item:hover {
+  color: #CCCCCC;
+}
+
+.category {
+  cursor: pointer;
+  color: #78909C;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 12px;
+}
+
+.category:hover {
+  color: #03A9F4;
+}
+
+/* ************** buttons  ************** */
+
+.nav-btn {
+  cursor: pointer;
+  float: right;
+  color: white;
+  background: #03A9F4;
+  border: none;
+  border-radius: 24px;
+  padding: 9px 30px;
+  margin-right: 20px;
+  margin-top: 13px;
+}
+
+button.btn-bold {
+  font-size: 14px;
+}
+
+/* ************** PrimeNG  ************** */
+
+.ui-growl-item {
+  background: #03A9F4;
+  color: white;
+  /* padding-right: 20px; */
+}
+
+

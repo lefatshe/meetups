@@ -1,0 +1,20 @@
+<p-growl [(value)]="msgs"></p-growl>
+
+<div class="content ui-sm-12 ui-sm-12 ui-md-12, ui-sm-12">
+
+  <div class="banner">
+    <button class="btn-bold nav-btn" [routerLink]="['/groups']">Groups</button>
+    <span class="header">Settings</span><br>
+    <small class="roboto-font">Choose your preffered group</small>
+
+  </div>
+
+  <div class="ui-g categories">
+    <div class="ui-g-2 ui-sm-12 cat-item" *ngFor="let cat of category" (click)="onSelect(cat)" >
+      <span class="category">{{cat.name}}</span>
+      <div class="undeliner"></div>
+    </div>
+  </div>
+</div>
+
+

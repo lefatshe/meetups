@@ -1,0 +1,50 @@
+<div class="content ui-sm-12 ui-sm-12 ui-md-12, ui-sm-12">
+
+  <div class="banner">
+    <button class="btn-bold nav-btn" [routerLink]="['/category']"> Settings</button>
+    <span class="header">Groups</span><br>
+    <small class="roboto-font">Your preffered group <strong class="blk">{{prefferedCategory}}</strong></small>
+  </div>
+
+  <div class="groups">
+    <div class="ui-g">
+
+      <div *ngFor="let groups of group" class="ui-g-12 ui-md-6 ui-lg-6 sets">
+        <div class="panels">
+          <!--{{groups.group_photo.thumb_link}}-->
+          <div class="group-title">{{groups.name}}</div>
+          <small class="roboto-font">created: {{groups.created}}</small>
+
+          <div class="more-info">
+
+            <div class="text-info">
+              Members <span class="data"> <label class="boolean">{{groups.members}}</label> </span>
+              <a href="{{groups.link}}" class="link-item" target="_blank"> + Link </a>
+            </div>
+
+            <div class="text-info follow-text">
+              Location <span class="data syrilized"> {{groups.localized_location}} </span>
+            </div>
+
+            <div class="text-info follow-text">
+              For Who <span class="data syrilized"> {{groups.who}} </span>
+            </div>
+
+            <div class="text-info follow-text">
+              Join Mode <span class="data syrilized"> {{groups.join_mode}} </span>
+            </div>
+
+
+            <p-panel header="Descriptions" [toggleable]="true" collapsed="true">
+              <div [innerHTML]="groups.description"></div>
+            </p-panel>
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
